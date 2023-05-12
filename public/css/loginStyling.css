@@ -1,0 +1,62 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background: #fff;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+div .row {
+  margin-bottom: 0px;
+}
+
+#loginContainer {
+  margin-top: 10px;
+  width: 398px;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+#loginContainer input {
+  border: 1px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px 1px #888888;
+  height: 30px;
+  padding-left: 8px;
+}
+
+#loginContainer ::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: grey;
+}
+
+#KnowledgeMillLogo {
+  margin-bottom: 10px;
+}
+
+#userCredentials input {
+}
+
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+input:-webkit-autofill {
+  -webkit-box-shadow: inset 1px 1px 0px 9999px #cccccc !important;
+  box-shadow: 1px 1px 3px 1px #888888;
+}
+
+.row button {
+  background-color: rgb(73, 90, 187) !important;
+  width: 85px !important;
+  margin: 20px 110px !important;
+  margin-bottom: 2px !important;
+}
